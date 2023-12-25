@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///D:/nebulaworkspace/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "action (Minecraft 1.19.4)",
+    "description": "action Running Minecraft 1.19.4 (Fabric v0.15.3)",
+    "icon": "https://discord.com/channels/814439626731290655/1156931607110893568/1188930285954404352",
+    "address": "액션마을.서버.한국",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "fabric": {
+    "version": "0.15.3"
+  },
+  "untrackedFiles": []
+}

@@ -1,0 +1,272 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "action-1.19.4",
+      "name": "action (Minecraft 1.19.4)",
+      "description": "action Running Minecraft 1.19.4 (Fabric v0.15.3)",
+      "icon": "https://discord.com/channels/814439626731290655/1156931607110893568/1188930285954404352",
+      "version": "1.0.0",
+      "address": "액션마을.서버.한국",
+      "minecraftVersion": "1.19.4",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.15.3",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1198587,
+            "MD5": "8f12146f2b65698bb344643ec4e05ff9",
+            "url": "https://raw.githubusercontent.com/Salgu99/hostfiles/main/repo/lib/net/fabricmc/fabric-loader/0.15.3/fabric-loader-0.15.3.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.19.4-fabric-0.15.3",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2847,
+                "MD5": "18d723fce3a369e4df42b56ccaf0861a",
+                "url": "https://raw.githubusercontent.com/Salgu99/hostfiles/main/repo/versions/1.19.4-fabric-0.15.3/1.19.4-fabric-0.15.3.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.6",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 123598,
+                "MD5": "6f8bccf756f170d4185bb24c8c2d2020",
+                "url": "https://raw.githubusercontent.com/Salgu99/hostfiles/main/repo/lib/org/ow2/asm/asm/9.6/asm-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.6",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34041,
+                "MD5": "31c84ef7cc893fb278952ae2d6a2674f",
+                "url": "https://raw.githubusercontent.com/Salgu99/hostfiles/main/repo/lib/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.6",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72194,
+                "MD5": "9e317c75534bd1da8c00a67c618ab288",
+                "url": "https://raw.githubusercontent.com/Salgu99/hostfiles/main/repo/lib/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.6",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51935,
+                "MD5": "6062608f1a98afe1e853d01fa1221a9e",
+                "url": "https://raw.githubusercontent.com/Salgu99/hostfiles/main/repo/lib/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.6",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 91131,
+                "MD5": "bd3bc1c176a787373e9a031073c9574b",
+                "url": "https://raw.githubusercontent.com/Salgu99/hostfiles/main/repo/lib/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.12.5+mixin.0.8.5",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1451874,
+                "MD5": "4cc3ff559cafdc70d9ed80e869d447f0",
+                "url": "https://raw.githubusercontent.com/Salgu99/hostfiles/main/repo/lib/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.19.4",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 561002,
+                "MD5": "3152114bacff68951f30cfa891fdba24",
+                "url": "https://raw.githubusercontent.com/Salgu99/hostfiles/main/repo/lib/net/fabricmc/intermediary/1.19.4/intermediary-1.19.4.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "dev.architectury.utils:architectury:8.2.89@jar",
+          "name": "Architectury",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 574224,
+            "url": "https://raw.githubusercontent.com/Salgu99/hostfiles/main/servers/action-1.19.4/fabricmods/required/architectury-8.2.89-fabric.jar",
+            "MD5": "cd7445a9049861d4be14d99f8cb16689"
+          }
+        },
+        {
+          "id": "jp.axer.cocoainput.loader:cocoainput:4.2.1-EXPERIMENTAL@jar",
+          "name": "CocoaInput",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 210642,
+            "url": "https://raw.githubusercontent.com/Salgu99/hostfiles/main/servers/action-1.19.4/fabricmods/required/CocoaInput-1.19.4-fabric-4.2.1-EXPERIMENTAL.jar",
+            "MD5": "ea42db3f4dbde04adb6059bc65dc6c40"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.86.1+1.19.4@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2049807,
+            "url": "https://raw.githubusercontent.com/Salgu99/hostfiles/main/servers/action-1.19.4/fabricmods/required/fabric-api-0.86.1+1.19.4.jar",
+            "MD5": "78dbc8208daac7b67a5f97eba4c41674"
+          }
+        },
+        {
+          "id": "dlovin.inventoryhud:inventoryhud:3.4.15@jar",
+          "name": "Inventory HUD +",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 219151,
+            "url": "https://raw.githubusercontent.com/Salgu99/hostfiles/main/servers/action-1.19.4/fabricmods/required/invhud.fabric.1.19.4-3.4.15.jar",
+            "MD5": "5ed9ce24b38da776b744227231c687e0"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.6.1@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2348076,
+            "url": "https://raw.githubusercontent.com/Salgu99/hostfiles/main/servers/action-1.19.4/fabricmods/required/iris-mc1.19.4-1.6.1.jar",
+            "MD5": "6056dac0f27ad958225355859cf92835"
+          }
+        },
+        {
+          "id": "snownee.jade:jade:10.4.0@jar",
+          "name": "Jade",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 463672,
+            "url": "https://raw.githubusercontent.com/Salgu99/hostfiles/main/servers/action-1.19.4/fabricmods/optionaloff/Jade-1.19.4-fabric-10.4.0.jar",
+            "MD5": "7c84ec7e4fb607619f0adfa043a19e1b"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "journeymap:journeymap:5.9.7@jar",
+          "name": "Journeymap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7230384,
+            "url": "https://raw.githubusercontent.com/Salgu99/hostfiles/main/servers/action-1.19.4/fabricmods/required/journeymap-1.19.4-5.9.7-fabric.jar",
+            "MD5": "6244474ff911ce3a1bd946373b63ddad"
+          }
+        },
+        {
+          "id": "dev.lambdaurora:lambdynlights:2.3.1+1.19.4@jar",
+          "name": "LambDynamicLights",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 565922,
+            "url": "https://raw.githubusercontent.com/Salgu99/hostfiles/main/servers/action-1.19.4/fabricmods/required/lambdynamiclights-2.3.1+1.19.4.jar",
+            "MD5": "1ee5a0bb830c8dc113b09ef0f0a5ae1f"
+          }
+        },
+        {
+          "id": "yalter.mousetweaks:mousetweaks:2.24@jar",
+          "name": "Mouse Tweaks",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 77355,
+            "url": "https://raw.githubusercontent.com/Salgu99/hostfiles/main/servers/action-1.19.4/fabricmods/optionalon/MouseTweaks-fabric-mc1.19.4-2.24.jar",
+            "MD5": "a5ec80d4178c52d54366d33ddcee8892"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.aizistral:nochatreports:1.19.4-v2.1.6@jar",
+          "name": "No Chat Reports",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 622940,
+            "url": "https://raw.githubusercontent.com/Salgu99/hostfiles/main/servers/action-1.19.4/fabricmods/optionaloff/NoChatReports-FABRIC-1.19.4-v2.1.6.jar",
+            "MD5": "7fc636e3a802b98d3043660a26b8fb21"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "com.replaymod.core:replaymod:1.19.4-2.6.13@jar",
+          "name": "Replay Mod",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 13062971,
+            "url": "https://raw.githubusercontent.com/Salgu99/hostfiles/main/servers/action-1.19.4/fabricmods/required/replaymod-1.19.4-2.6.13.jar",
+            "MD5": "1668d96ba94f68130c2bfbc500495ea6"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:sodium:0.4.10+build.24@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 711302,
+            "url": "https://raw.githubusercontent.com/Salgu99/hostfiles/main/servers/action-1.19.4/fabricmods/required/sodium-fabric-mc1.19.4-0.4.10+build.24.jar",
+            "MD5": "088dfb7323e7a042fb6edf1f0e7802d9"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.19.4-2.4.16@jar",
+          "name": "Simple Voice Chat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7940357,
+            "url": "https://raw.githubusercontent.com/Salgu99/hostfiles/main/servers/action-1.19.4/fabricmods/required/voicechat-fabric-1.19.4-2.4.16.jar",
+            "MD5": "ef6287ce3a6f52b4330d9ec54cf5e7a5"
+          }
+        },
+        {
+          "id": "net.wurstclient.zoom:wi_zoom:1.4-MC1.19.4@jar",
+          "name": "WI Zoom",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 139677,
+            "url": "https://raw.githubusercontent.com/Salgu99/hostfiles/main/servers/action-1.19.4/fabricmods/required/WI-Zoom-1.4-MC1.19.4.jar",
+            "MD5": "5aaadc157bb1a69127f07602407b833e"
+          }
+        }
+      ]
+    }
+  ]
+}
